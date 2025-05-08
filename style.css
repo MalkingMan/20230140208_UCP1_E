@@ -1,0 +1,95 @@
+/* Atur font dasar untuk seluruh halaman */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333333; /* Warna teks utama */
+  background-color: #fffdf4; /* Background lembut */
+}
+
+/* Judul utama */
+h1 {
+  font-size: 3rem;
+  color: #b30000; /* Merah tua */
+  font-weight: bold;
+}
+
+/* Subjudul atau paragraf */
+p {
+  font-size: 1.1rem;
+  color: #555555; /* Abu gelap */
+}
+
+/* Navbar link */
+.navbar-nav .nav-link {
+  font-weight: 500;
+  color: #ffffff !important; /* Warna teks putih */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffd700 !important; /* Warna emas saat hover */
+}
+
+/* Tombol */
+.btn-danger {
+  background-color: #b30000;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #8c0000;
+}
+
+
+/* Mengatur font di seluruh footer */
+footer {
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;  /* Ukuran font standar untuk footer */
+}
+
+/* Menambah penekanan pada teks header footer */
+footer p strong {
+  font-size: 1.1rem;  /* Ukuran font yang sedikit lebih besar untuk header */
+  font-weight: bold;
+}
+
+/* Mengubah warna teks untuk footer */
+footer p {
+  color: #f0f0f0;  /* Warna teks footer yang lembut */
+}
+
+/* Styling tambahan untuk footer saat hover atau interaksi */
+footer p:hover {
+  color: #ffd700;  /* Warna gold ketika hover */
+  cursor: pointer;
+}
+
+/*INDEX*/
+/* Umum */
+body {
+  background-color: #fff8e1; /* warna krem lembut */
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #b30000; /* merah tua khas Jerman */
+}
+
+.navbar-brand,
+.nav-link {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* Header */
+.header-banner {
+  background-color: #f8c90d; /* kuning pastel */
+}
+
+/* Footer */
+.footer-nav {
+  background-color: #222;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
